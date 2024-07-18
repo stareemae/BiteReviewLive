@@ -6,7 +6,12 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["@mui/system", "notistack", "@mui/material/GlobalStyles"],
+      external: [
+        "@mui/system",
+        "notistack",
+        "@mui/material/GlobalStyles",
+        "@react-google-maps/api",
+      ],
     },
   },
 });
