@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["@mui/system", "notistack"],
+      external: ["@mui/system", "notistack", "@mui/material/GlobalStyles"],
     },
   },
 });
